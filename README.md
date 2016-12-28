@@ -10,11 +10,11 @@ View 클래스를 상속받은 하나의 Custom View로 구현합니다.
 ## 동작
 
 ### Cell에 대한 동작
-+ singleTap : Cell 선택하기
-+ doubleTap : Cell 편집하기
+> singleTap : Cell 선택하기
+> doubleTap : Cell 편집하기
 
 ### Sheet에 대한 동작
-+ onLongPress : Sheet에 대한 diolog 생성(Sheet이름 바꾸기, Sheet순서 바꾸기, Sheet 삭제하기)
+> onLongPress : Sheet에 대한 diolog 생성(Sheet이름 바꾸기, Sheet순서 바꾸기, Sheet 삭제하기)
 
 
 ## 미구현
