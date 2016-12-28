@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">SpreadSheet</string>
+
+    <string name="ok">확인</string>
+    <string name="cancel">취소</string>
+
+    <string name="new_file">새문서</string>
+    <string name="load_file">불러오기</string>
+    <string name="save_file">저장</string>
+
+    <string name="message_create_new_workBook">새 문서를 작성합니다.</string>
+
+    <string name="title_save_workbook_name">Workbook</string>
+    <string name="sub_message_save_workbook_neme">저장할 이름을 입력하세요.</string>
+
+    <string name="message_save_workBook_success">WorkBook 저장 완료하였습니다.</string>
+    <string name="message_save_workBook_fail">WorkBook 저장에 실패하였습니다.</string>
+    <string name="message_save_workBook_fail_too_short">최소 한 글자 이상을 입력해야 합니다.</string>
+
+    <string name="message_load_workBook_success">WorkBook을 불러 왔습니다.</string>
+    <string name="message_load_workBook_fail">WorkBook 불러오기 실패입니다.</string>
+
+    <string name="title_sheet">Sheet</string>
+    <string name="change_sheet_name">이름 바꾸기</string>
+    <string name="change_sheet_order">시트간의 이동하기</string>
+    <string name="delete_sheet">시트 삭제하기</string>
+
+    <string name="title_change_sheet_name">이름 바꾸기</string>
+    <string name="sub_message_change_sheet_neme">변경할 이름을 입력하세요.</string>
+
+    <string name="message_change_sheet_name_success">Sheet 이름 변경되었습니다.</string>
+    <string name="message_change_sheet_name_fail">다른 sheet 이름과 중복됩니다.</string>
+    <string name="message_change_sheet_name_fail_too_short">최소 한 글자 이상을 입력해야 합니다.</string>
+
+    <string name="title_change_sheet_order">위치를 선정하세요</string>
+
+    <string name="message_sheet_delete_fail">삭제 되었습니다.</string>
+    <string name="message_sheet_delete_action_negative">최소 하나의 시트가 존재해야 합니다.</string>
+
+</resources>
