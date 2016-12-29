@@ -1,10 +1,10 @@
 package com.example.owner.spreadsheet.utils.listener;
 
-import java.util.HashSet;
-import java.util.Set;
+import java.util.ArrayList;
+import java.util.List;
 
 public class ModelDataChangeListener {
-    public static Set<IDataChangeable> dataChangeNotifySet = new HashSet<>();
+    public static List<IDataChangeable> dataChangeNotifySet = new ArrayList<>();
     private static boolean blocked = false;
 
     public interface IDataChangeable {
