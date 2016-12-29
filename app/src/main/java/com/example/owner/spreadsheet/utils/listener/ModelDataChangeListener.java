@@ -13,18 +13,7 @@ public class ModelDataChangeListener {
 
     // Model 이 변경되었음을 통지 받기를 원하는 IDataChangeable 을 set 에 추가한다.
     public static void addDataChangeable(IDataChangeable dataChangeable) {
-        boolean exist = false;
-        // 같은 IDataChangeable 이 있는지 확인
-        for (IDataChangeable check : dataChangeNotifySet) {
-            if (check != dataChangeable) {
-                exist = true;
-                break;
-            }
-        }
-        // 같은 IDataChangeable 이 없을 경우
-        if (!exist) {
-            dataChangeNotifySet.add(dataChangeable);
-        }
+        dataChangeNotifySet.add(dataChangeable);
     }
 
     // Model 이 변경되었음을 통지 받기를 해제하는 메소드
