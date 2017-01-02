@@ -127,12 +127,13 @@ public class MainActivity extends Activity {
                 if (data.getData() != null) {
                     selectedFileURI = data.getData();
                     try {
+                        // .hana파일만을 읽을 수 있으므로 확장자 체크를 한다.
                         if(selectedFileURI.toString().substring(selectedFileURI.toString().length() - Hana.HANA_EXTENSION.length() ,selectedFileURI.toString().length() ).equals(Hana.HANA_EXTENSION)) {
                             workBookController.readHana(selectedFileURI, this);
                             Toast.makeText(getApplicationContext(), getString(R.string.message_load_workBook_success), Toast.LENGTH_LONG).show();
                         }
                         else{
-                            Toast.makeText(getApplicationContext(),"지원하지 않는 파일 확장자입니다.", Toast.LENGTH_LONG).show();
+                            Toast.makeText(getApplicationContext(),getString(R.string.message_not_apply_extension), Toast.LENGTH_LONG).show();
                         }
                         // readHana 에서 Exception 이 발생할 수 있다.
                     } catch (Exception e) {

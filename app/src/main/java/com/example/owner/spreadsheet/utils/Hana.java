@@ -36,7 +36,6 @@ public class Hana {
         Sheet sheet = null;
         String line;
 
-        int count = 0;
         String cellValue;
         int cellType;
 
