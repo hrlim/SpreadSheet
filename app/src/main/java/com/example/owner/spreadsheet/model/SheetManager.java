@@ -3,7 +3,7 @@ package com.example.owner.spreadsheet.model;
 import android.util.Log;
 import java.util.LinkedList;
 
-import com.example.owner.spreadsheet.exception.DuplicateSheetNameException;
+import com.example.owner.spreadsheet.utils.exception.DuplicateSheetNameException;
 
 class SheetManager {
 

@@ -28,8 +28,8 @@ import android.widget.Toast;
 
 import com.example.owner.spreadsheet.R;
 import com.example.owner.spreadsheet.ctrl.WorkBookController;
-import com.example.owner.spreadsheet.exception.CellIndexOutOfBoundsException;
-import com.example.owner.spreadsheet.exception.DuplicateSheetNameException;
+import com.example.owner.spreadsheet.utils.exception.CellIndexOutOfBoundsException;
+import com.example.owner.spreadsheet.utils.exception.DuplicateSheetNameException;
 import com.example.owner.spreadsheet.model.Cell;
 import com.example.owner.spreadsheet.utils.DrawText;
 import com.example.owner.spreadsheet.utils.function.SpreadSheetFunction;

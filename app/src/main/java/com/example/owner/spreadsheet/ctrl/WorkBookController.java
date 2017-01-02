@@ -9,8 +9,8 @@ import android.util.Log;
 
 import java.io.InputStream;
 
-import com.example.owner.spreadsheet.exception.CellIndexOutOfBoundsException;
-import com.example.owner.spreadsheet.exception.DuplicateSheetNameException;
+import com.example.owner.spreadsheet.utils.exception.CellIndexOutOfBoundsException;
+import com.example.owner.spreadsheet.utils.exception.DuplicateSheetNameException;
 import com.example.owner.spreadsheet.model.Cell;
 import com.example.owner.spreadsheet.model.Sheet;
 import com.example.owner.spreadsheet.model.WorkBook;

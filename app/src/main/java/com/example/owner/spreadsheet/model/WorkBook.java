@@ -1,6 +1,6 @@
 package com.example.owner.spreadsheet.model;
 
-import com.example.owner.spreadsheet.exception.DuplicateSheetNameException;
+import com.example.owner.spreadsheet.utils.exception.DuplicateSheetNameException;
 import com.example.owner.spreadsheet.utils.listener.ModelDataChangeListener;
 
 import static com.example.owner.spreadsheet.model.Sheet.DEFAULT_NUM_COLUMNS;

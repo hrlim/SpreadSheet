@@ -3,7 +3,7 @@ package com.example.owner.spreadsheet.model;
 import android.util.Log;
 import java.util.HashMap;
 
-import com.example.owner.spreadsheet.exception.CellIndexOutOfBoundsException;
+import com.example.owner.spreadsheet.utils.exception.CellIndexOutOfBoundsException;
 import com.example.owner.spreadsheet.utils.listener.ModelDataChangeListener;
 import static com.example.owner.spreadsheet.view.WorkBookView.SECTION_SHEET;
 
